@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "sonchao", sans-serif;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.register-form{
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 15px;
+    border: 2px dotted #cccccc;
+    border-radius: 10px;
+}
+.from {
+    width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 0px 5px rgb(166, 158, 158);
+    border-radius: 10px;
+}
+form>h1 {
+    text-align: center;
+    color: #1877f2;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.tieude {
+    text-align: left;
+}
+.tieude>h3{
+   
+    font-size: 25px;
+    line-height: 30px;
+}
+.tieude>h2 {
+    font-size: 25px;
+    line-height: 32px;
+    color: #1c1e21;
+}
+
+.tieude>h5 {
+    font-size: 15px;
+    line-height: 25px;
+    color: #606770;
+}
+.name input{
+    width: 220px;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: rgb(166, 158, 158);
+    border-width: 0.2px;
+    box-shadow: 0px 0px 3px 3px whitesmoke;
+}
+.form-control {
+    margin: 3px 0px;
+    padding: 5px;
+    border-color: rgb(red, green, blue);
+    border-radius: 3px;
+    box-shadow: 0 0 3px gray;
+    width: 200px;
+    outline: none;
+    font-weight: bold;
+}
+
+input[type="text"],
+[type="email"] {
+    display: inline-block;
+    margin: 3px 1px;
+}
+
+input[type="text"],
+[type="email"],
+[type="password"] {
+    padding: 15px;
+}
+
+input[type="email"],
+[type="password"] {
+    width: 450px;
+}
+input[type="date"]{
+    width: 450px;
+    text-align: center;
+    font: 20px;
+    color: gray;
+   
+
+}
+label.gioitinh {
+    display: inline-table;
+    border-radius: 3px;
+    border-color: rgb(blue, green, blue);
+    box-shadow: 0 0 3px gray;
+    padding: 5px 40px 5px 10px;
+    margin: 5px;
+    width: 30%;
+    color: #1877f2;
+}
+
+input[type="radio"] {
+    margin-right: 20px;
+}
+
+form>p {
+    font-size: 13px;
+    padding-top: 15px;
+}
+
+p>a {
+    text-decoration: none;
+    color: #385898;
+}
+
+p>a:hover {
+    text-decoration: underline;
+}
+
+input[type="submit"] {
+    height: 35px;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    background-color: #00a400;
+    box-shadow: 0 0 10px #1e6609;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+form>h3 {
+    text-align: center;
+    margin-top: -20px;
+}
+
+form>h3>a {
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 17px;
+}
