@@ -14,16 +14,16 @@
     width: 100%;
     max-width: 500px;
     margin: 20px auto;
-    background-color: #ffffff;
+    background-color: whitesmoke;
     padding: 15px;
-    border: 2px dotted #cccccc;
+    border: 2px dotted whitesmoke;
     border-radius: 10px;
 }
 .from {
     width: 450px;
     margin: 0 auto;
     padding: 20px;
-    box-shadow: 0px 0px 5px rgb(166, 158, 158);
+    box-shadow: 0px 0px 50px rgb(166, 158, 158);
     border-radius: 10px;
 }
 form>h1 {
@@ -67,8 +67,9 @@ form>h1 {
     border-radius: 3px;
     box-shadow: 0 0 3px gray;
     width: 200px;
-    outline: none;
-    font-weight: bold;
+    border-width: 0.2px;
+    
+    
 }
 
 input[type="text"],
@@ -90,7 +91,7 @@ input[type="email"],
 input[type="date"]{
     width: 450px;
     text-align: center;
-    font: 20px;
+    font: 25px;
     color: gray;
    
 
