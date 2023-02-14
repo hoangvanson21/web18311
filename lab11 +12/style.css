@@ -1,0 +1,108 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+th,
+td{
+    border: 3px solid whitesmoke;
+    padding: 15px;
+    text-align: left;
+}
+th{
+    background-color: whitesmoke;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    border: 2px solid #464646;
+    border-radius: 15px 15px 0px 0px;
+    
+}
+header h3 {
+    padding: 0px 10px 0px 10px;
+    color: black;
+    font-size: larger;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+.quantity{
+    text-align: center;
+    padding: 4px 5px 0px 5px ;
+    margin: 25px 10px 20px 15px;
+    border: none solid #181717;
+    border-radius: 15px;
+    color: rgb(67, 70, 67);
+    background-color: rgb(243, 243, 243); 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+span{
+    color: whitesmoke;
+    font-size: small;
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    padding-top: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    border: 2px solid #363535;
+    border-radius:5px;
+    background-color: black;  
+    margin-left: 62%; 
+    
+}
+.add_user{
+    color: white;
+   font-size: small;
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    padding-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #676666;
+    border-radius:5px;
+    background-color: rgb(16, 16, 16);
+}
+
+table th,
+table td {
+  padding: 15px 30px;
+  text-align: left;
+  vertical-align: middle;
+  white-space: nowrap;
+  font-size: 20px;
+}
+
+table th {
+  color: blue;
+  font-weight: 600;
+  background-color: whitesmoke;
+  font-size: 20px;
+}
+table tbody tr {
+  border-top: 5px solid whitesmoke;
+}
+table .ten {
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+}
+table .ten img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100rem;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+  table .ten .name {
+    display: flex;
+    flex-direction: column;
+}
+  table {
+    overflow: auto;
+    border: 1px solid whitesmoke;
+}
+  
