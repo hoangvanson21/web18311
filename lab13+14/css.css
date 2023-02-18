@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+    color: #000;
+}
+
+div {
+    font-size: 20px;
+}
+img{
+    float: right;
+    margin-left: 10px;
+    width: 250px;
+}
+div p{
+    font-size: 30px;
+    color: #000;
+    text-size-adjust: 20px;
+   
+}
