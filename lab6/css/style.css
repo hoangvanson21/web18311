@@ -37,7 +37,7 @@ aside{
     width: 30%;
     height: 500px;
     background-color: gray;
-    float: left;
+    float: right;
 }
 footer{
     border-top:5px double orangered ;
