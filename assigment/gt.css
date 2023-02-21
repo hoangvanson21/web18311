@@ -103,7 +103,36 @@ h3{
     color: blueviolet;
 }
 
+.main {
+    flex: 4;
+    margin-left: 5px;
+}
 
+.main .content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.main .content .top{
+    display: flex;
+}
+
+
+
+.main .content  h2{
+    padding-left: 10px;
+    color: aqua;
+}
+
+.main .content .top a{
+    text-decoration: none;
+}
+
+.main .content .bottom{
+    color: rgb(66, 64, 64);
+    margin: 10px ;
+    padding-top: 10px;
+}
 /* footer*/
 footer{
     width: 100%;

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu</title>
+    <link rel="stylesheet" href="gt.css">
+    <script language='javascript'>
+        var myVar = setInterval(function () { Clock() }, 1000);
+        function Clock() {
+            a = new Date();
+            w = Array("Chủ Nhật", "Thứ hai", "Thứ ba", "Thứ tư", "Thứ năm", "Thứ sáu", "Thứ bảy");
+            var a = w[a.getDay()],
+                w = new Date,
+                d = w.getDate();
+            m = w.getMonth() + 1;
+            y = w.getFullYear();
+            h = w.getHours();
+            mi = w.getMinutes();
+            se = w.getSeconds();
+            if (10 > d) { d = "0" + d }
+            if (10 > m) { m = "0" + m }
+            if (10 > h) { h = "0" + h }
+            if (10 > mi) { mi = "0" + mi }
+            if (10 > se) { se = "0" + se }
+            document.getElementById("clockDiv").innerHTML = "Hôm nay: " + a + ", " + d + " / " + m + " / " + y + " - " + h + ":" + mi + ":" + se + "";
+        }
+    </script>
+    <script src="https://kit.fontawesome.com/fade33c73f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--img-->
+    <header>
+        <img src="" alt="">
+    </header>
+    <!--endheader-->
+    <nav>
+        <div>
+            <ul>
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Giới thiệu</a></li>
+                <li><a href="#">Hỏi & đáp </a></li>
+                <li><a href="#">Tra cứu</a></li>
+                <li><a href="#">Liên hệ</a></li>
+            </ul>
+        </div>
+        <div class="tkiem">
+            <input type="search" placeholder="Tìm kiếm ở đây...">
+            <button>Tìm kiếm</button>
+        </div>
+    </nav>
+    <!--endnav-->
+    <div class="chaychu">
+        <div class="row">
+            <div id="clockDiv"></div>
+        </div>
+        <div class="text">
+            <marquee behavior="" direction="left">HIỂU BIẾT VÀ CHẤP HÀNH PHÁP LUẬT LÀ BẢO VỆ CHÍNH MÌNH VÀ CÔNG ĐỒNG VÌ
+                MỘT XÃ HỘI CÔNG BẰNG, DÂN CHỦ, VĂN MINH</marquee>
+        </div>
+    </div>
+    <!--end-->
+    <aside class="traidoc">
+        <div>
+            <h3>Giới thiệu nhà trường</h3>
+            <ul>
+                <li> Giới thiệu chung</li>
+                <li>Lịch sử nhà trường</li>
+                <li>Thành tích nhà trường</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Lịch công tác</h3>
+            <ul>
+                <li>Kế hoạch tuần</li>
+                <li>Lịch công tác trong tâm trong năm</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Văn bản</h3>
+            <ul>
+                <li>Văn bản nhà trường</li>
+                <li>Văn bản Sở GD&ĐT</li>
+                <li>Văn bản Quy phạm pháp luật</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Giáo dục pháp luật</h3>
+            <ul>
+                <li>Bình đẳng giới</li>
+                <li>Phòng chống tham nhũng</li>
+            </ul>
+        </div>
+
+    </aside>
+    <div class="main">
+        <div class="content">
+
+            <h2><a href="http://thptleloi.quangtri.edu.vn/gioi-thieu/lich-su-nha-truong/gioi-thieu-ve-truong-va-vi-anh-hung-dan-toc-le-loi.html"
+                    target="_blank">Giới thiêu về Trường THPT Lê Lợi - Quảng Trị</a>
+            </h2>
+            <div class="bottom">
+                <p>
+                    Năm 1998, Trường THPT Lê Lợi được thành lập theo Quyết định số 396/QĐ-UBND ngày 02 tháng 5 năm
+                    1998 của Chủ tịch UBND tỉnh Quảng Trị.
+                    Nhắc đến Trường THPT Lê Lợi là nhắc đến điểm sáng trong giáo dục bậc trung học của khối trực
+                    thuộc Sở GD&ĐT Quảng Trị. Qua hơn 20 năm xây dựng và phát triển, ngôi trường là niềm tự hào của
+                    nhiều thế hệ cán bộ, giáo viên và học sinh đã từng công tác và học tập tại đây. Vào năm 1998,
+                    trường được thành lập và tọa lạc ở phía nam thị xã Đông Hà như một sự kiện đặc biệt trong niềm
+                    vui của các bậc phụ huynh và học sinh, thể hiện sự quan tâm của Đảng, chính quyền các cấp nhằm
+                    tạo điều kiện thuận lợi để nhân dân địa phương có thêm địa chỉ giáo dục mới để gửi gắm tương
+                    lai của con em.
+                </p>
+                <hr>
+            </div>
+        </div>
+        <div class="content">
+            <h2><a href="http://thptleloi.quangtri.edu.vn/gioi-thieu/lich-su-nha-truong/le-loi-le-thai-to-anh-hung-dan-toc-lanh-tu-khoi-nghia-lam-so.html"
+                    target="_blank">
+                    Lê Lợi - Lãnh tụ khởi nghĩa Lam Sơn - Người sáng lập nhà Hậu Lê</a>
+            </h2>
+            <div class="bottom">
+                <p>
+                    Lê Lợi sinh ngày 10/09/1385 (Tức 06/08 năm Ất Sửu) quê Lam Sơn - Xuân Lam - Thọ Xuân - Thanh Hoá.
+                    Cha là Lê Khoáng một hào trưởng có uy tín trong vùng. Dưới ảnh hưởng của người cha, ngay từ nhỏ, Lê
+                    Lợi tỏ ra là người thông minh, dũng lược, đức độ hơn người, sách Đại Việt thông sử đã mô tả như sau:
+                    “Thiên tư tuấn tú khác thường, tinh thần và dáng người tinh anh, mạnh mẽ, mắt sáng, miệng rộng, mũi
+                    cao, vai có nốt ruồi...Tiếng nói như chuông, đi như rồng, bước như hổ.....các bậc thức giả biết ngay
+                    là người phi thường”.
+                </p>
+                <hr>
+            </div>
+        </div>
+        <div class="content">
+            <h2><a href="http://thptleloi.quangtri.edu.vn/gioi-thieu/thanh-tich-nha-truong/cac-danh-hieu-thi-dua-va-hinh-thuc-khen-thuong-nha-truong-tu.html"
+                    target="_blank">
+                    Các danh hiệu thi đua và hình thức khen thưởng nhà trường từ 2010-2020</a>
+            </h2>
+            <div class="bottom">
+                <p>
+                    Từ năm 2010 đến năm 2020 nhà trường đạt được rất nhiều thành tích đáng nể thì cấp thành phó đế cấp
+                    tỉnh
+                </p>
+                <hr>
+            </div>
+        </div>
+
+
+        <!--Endaside-->
+        <footer>
+            <div class="ft1">
+                <h3> Trường THPT Lê Lợi </h3>
+                <p> Địa chỉ: 87 Lê Lợi, Đông Lễ, Đông Hà, Quảng Trị</p>
+                <p>Email:truongthptleloi@quangtri.gov.vn</p>
+                <p>Điện thoại: 0233 3854 800</p>
+            </div>
+            <div class="ft2">
+                <p>HOÀNG VĂN SƠN</p>
+            </div>
+        </footer>
+</body>
+
+</html>
