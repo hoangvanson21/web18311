@@ -46,6 +46,7 @@ body{
     text-decoration:none;
     margin-bottom: 15px;
     color:rgb(red, green, blue);
+    background: yellow;
 } 
 .menu .arrow {
     font-size:11px;

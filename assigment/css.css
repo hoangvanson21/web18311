@@ -56,6 +56,7 @@ nav{
     text-decoration:none;
     margin-bottom: 15px;
     color:rgb(red, green, blue);
+    background: yellow;
 } 
 .menu .arrow {
     font-size:11px;
@@ -148,7 +149,7 @@ h3{
     padding: 10px 15px;
     background: blue;
     color: #fff;
-    text-shadow: 2px 2px 5px red;
+    text-shadow: 2px 2px 5px yellow;
 }
 .traidoc ul {
     list-style: none;
@@ -160,7 +161,7 @@ h3{
     border-top: 1px solid gray;
 }
 .traidoc ul li:hover{
-    background: red;
+    background:yellow;
     color: blueviolet;
 }
 
