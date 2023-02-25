@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu</title>
+    <link rel="stylesheet" href="tkb.css">
+    <script language='javascript'>
+        var myVar = setInterval(function () { Clock() }, 1000);
+        function Clock() {
+            a = new Date();
+            w = Array("Chủ Nhật", "Thứ hai", "Thứ ba", "Thứ tư", "Thứ năm", "Thứ sáu", "Thứ bảy");
+            var a = w[a.getDay()],
+                w = new Date,
+                d = w.getDate();
+            m = w.getMonth() + 1;
+            y = w.getFullYear();
+            h = w.getHours();
+            mi = w.getMinutes();
+            se = w.getSeconds();
+            if (10 > d) { d = "0" + d }
+            if (10 > m) { m = "0" + m }
+            if (10 > h) { h = "0" + h }
+            if (10 > mi) { mi = "0" + mi }
+            if (10 > se) { se = "0" + se }
+            document.getElementById("clockDiv").innerHTML = "Hôm nay: " + a + ", " + d + " / " + m + " / " + y + " - " + h + ":" + mi + ":" + se + "";
+        }
+    </script>
+    <script src="https://kit.fontawesome.com/fade33c73f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--img-->
+    <header>
+        <img src="" alt="">
+    </header>
+    <!--endheader-->
+    <div class="wrapper">
+        <nav class="menu">
+            <ul>
+                <li><a href="home.html">Trang chủ</a></li>
+                <li><a href="gioithieu.html" target="">Giới thiệu</a>
+                    <ul class="submenu">
+                        <li><a href="">Lịch Sử Nhà Trường</a> </li>
+                        <li><a href="">Giới thiệu chung</a></li>
+                    </ul>
+                </li>
+                <li><a href="Hoidap.html" target="">Hỏi & đáp </a></li>
+                <li><a href="tkb.html">Thời khóa biểu</a></li>
+                <li><a href="#">Liên hệ</a>
+                </li>
+            </ul>
+            <div class="tkiem">
+                <input type="search" placeholder="Tìm kiếm ở đây...">
+                <button>Tìm kiếm</button>
+            </div>
+        </nav>
+
+    </div>
+    <!--endnav-->
+    <div class="chaychu">
+        <div class="row">
+            <div id="clockDiv"></div>
+        </div>
+        <div class="text">
+            <marquee behavior="" direction="left">HIỂU BIẾT VÀ CHẤP HÀNH PHÁP LUẬT LÀ BẢO VỆ CHÍNH MÌNH VÀ CÔNG ĐỒNG VÌ
+                MỘT XÃ HỘI CÔNG BẰNG, DÂN CHỦ, VĂN MINH</marquee>
+        </div>
+    </div>
+    <!--end-->
+
+    <div class="main">
+        <div class="schedule">
+            <h2>Thời khóa biểu</h2>
+            <h2>Lớp 10</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Thứ 2</th>
+                        <th>Thứ 3</th>
+                        <th>Thứ 4</th>
+                        <th>Thứ 5</th>
+                        <th>Thứ 6</th>
+                        <th>Thứ 7</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Toán</td>
+                        <td>Lí</td>
+                        <td>Hóa</td>
+                        <td>Văn</td>
+                        <td>Sử</td>
+                        <td>Địa</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Tin</td>
+                        <td>Tiếng Anh</td>
+                        <td>Giáo dục</td>
+                        <td>Thể dục</td>
+                        <td>Toán</td>
+                        <td>Văn</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Sử</td>
+                        <td>Văn</td>
+                        <td>Tin</td>
+                        <td>Tiếng Anh</td>
+                        <td>Âm Nhạc</td>
+                        <td>Toán</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2>Lớp 11</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Thứ 2</th>
+                        <th>Thứ 3</th>
+                        <th>Thứ 4</th>
+                        <th>Thứ 5</th>
+                        <th>Thứ 6</th>
+                        <th>Thứ 7</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Toán</td>
+                        <td>Lí</td>
+                        <td>Hóa</td>
+                        <td>Văn</td>
+                        <td>Sử</td>
+                        <td>Địa</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Tin</td>
+                        <td>Tiếng Anh</td>
+                        <td>Giáo dục</td>
+                        <td>Thể dục</td>
+                        <td>Toán</td>
+                        <td>Văn</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Sử</td>
+                        <td>Văn</td>
+                        <td>Tin</td>
+                        <td>Tiếng Anh</td>
+                        <td>Âm Nhạc</td>
+                        <td>Toán</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2>Lớp 12</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Thứ 2</th>
+                        <th>Thứ 3</th>
+                        <th>Thứ 4</th>
+                        <th>Thứ 5</th>
+                        <th>Thứ 6</th>
+                        <th>Thứ 7</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Toán</td>
+                        <td>Lí</td>
+                        <td>Hóa</td>
+                        <td>Văn</td>
+                        <td>Sử</td>
+                        <td>Địa</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Tin</td>
+                        <td>Tiếng Anh</td>
+                        <td>Giáo dục</td>
+                        <td>Thể dục</td>
+                        <td>Toán</td>
+                        <td>Văn</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Sử</td>
+                        <td>Văn</td>
+                        <td>Tin</td>
+                        <td>Tiếng Anh</td>
+                        <td>Âm Nhạc</td>
+                        <td>Toán</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    </div>
+
+
+
+
+    <!--Endaside-->
+    <footer>
+        <div class="ft1">
+            <h3> Trường THPT Lê Lợi </h3>
+            <p> Địa chỉ: 87 Lê Lợi, Đông Lễ, Đông Hà, Quảng Trị</p>
+            <p>Email:truongthptleloi@quangtri.gov.vn</p>
+            <p>Điện thoại: 0233 3854 800</p>
+        </div>
+        <div>
+            <h3>Đắng ký nhận tin</h3>
+            <p>Đăng ký email để nhận các tin mới nhất</p>
+            <div>
+                <input type="email" placeholder="Điền email tại đây">
+                <button>Đăng ký</button>
+            </div>
+            <p>Mọi thông tin vui lòng liên hệ
+                Hotline: <span>0399865347</span>
+            </p>
+        </div>
+        <div class="ft2">
+            <p>HOÀNG VĂN SƠN</p>
+        </div>
+    </footer>
+</body>
+
+</html>
