@@ -88,9 +88,14 @@ body{
     display:block;
 }
 nav{
+    
+    line-height: 30px;
+    
     height: 40px;
     background: blue;
-    margin-bottom: 5px;
+    
+    color: white;
+    text-align: center;
 }
 nav .tkiem{
     float: right;

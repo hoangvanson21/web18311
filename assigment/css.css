@@ -24,7 +24,9 @@ body{
 /*hết header và thẻ chung html*/
 nav{
     line-height: 30px;
-    background-color: blue;
+    
+    height: 40px;
+    background: blue;
     
     color: white;
     text-align: center;
@@ -86,7 +88,7 @@ nav{
     left: -50px;
     z-index: index 0;
     opacity:0;
-    transition:opacity linear 0.15s;
+    
     background-color: aquamarine;
 }
 .submenu li {
@@ -98,12 +100,7 @@ nav{
     display:block;
 }
 /*bat dau css nav*/
-nav{
-    height: 40px;
-    background: blue;
-    margin-bottom: 5px;
 
-}
 
 nav .tkiem{
     float: right;
