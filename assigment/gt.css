@@ -118,6 +118,9 @@ nav .tkiem button{
     color: #fff;
     margin-left: -5px;
 }
+nav .tkiem button:hover{
+    background: black;
+}
 /*ket thuc css nav*/
 .chaychu{
     position: relative;
